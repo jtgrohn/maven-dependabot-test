@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: maven
+    directory: .
+    schedule:
+      interval: daily
+  - package-ecosystem: maven
+    directory: foo
+    schedule:
+      interval: daily
+  - package-ecosystem: maven
+    directory: bar
+    schedule:
+      interval: daily
